@@ -1,0 +1,58 @@
+:root {
+    --azul-dnc: #0c7092;
+    --preto-dnc: #303030;
+    --branco-dnc: #efebe4;
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--preto-dnc);
+    color: var(--branco-dnc);
+    font-size: 1.2rem;
+}
+header {
+    display: grid;
+    grid-auto-flow: column; /*especifica como os itens vão ser adicionados no grid, 
+    no caso como colunas*/
+    grid-auto-columns: 33vw;
+    align-items: center;
+    margin-bottom: 20px;
+}
+    header h1 {
+    text-align: center;
+    }
+#logo {
+    width: 100px;
+}
+section {
+    background-color: var(--branco-dnc);
+    color: var(--preto-dnc);
+    text-align: center;
+    padding: 20px 0 2px 0;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+section div p {
+    margin-bottom: 5px;
+}
+#botao {
+    background-color: var(--azul-dnc);
+    color: var(--branco-dnc);
+    border: 0;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.form {
+    margin: 8px;
+    border-radius: 10px;
+    border: 0;
+    height: 22px;
+    width: 200px;
+}
