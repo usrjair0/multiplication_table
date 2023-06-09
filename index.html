@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    
     <title>tabuada multiplicacao</title>
 </head>
 <body>
@@ -16,15 +22,15 @@
         </div>
     </header>
     <section>
-        <div>
+        <div class="section">
             <p>
                 Qual tabuada você quer saber? <br>
-                <input type="number" class="form" id="num">
+                <input type="number" class="form" id="num" placeholder="Digite aqui um número">
             </p>
             
             <p>
                 Você quer que o numero acima seja multiplicado de 0 até quanto? <br>
-                <input type="number" class="form" id="end">
+                <input type="number" class="form" id="end" placeholder="Digite aqui outro número">
             </p>
             <p>
                 <input type="button" value="Calcular" id="botao" onclick="tabuada()"><br>
