@@ -19,18 +19,21 @@
         <div>
             <p>
                 Qual tabuada você quer saber? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="num">
             </p>
             
             <p>
-                Você quer que o numero acima seja multiplicado até quanto? <br>
-                <input type="number" class="form">
+                Você quer que o numero acima seja multiplicado de 0 até quanto? <br>
+                <input type="number" class="form" id="end">
             </p>
             <p>
-                <input type="button" value="Calcular" id="botao"><br>
+                <input type="button" value="Calcular" id="botao" onclick="tabuada()"><br>
+            </p>
+            <p id="resposta">
                 Preencha os valores acima
             </p>
         </div> 
     </section>
+    <script src="tabuada.js"></script>
 </body>
 </html>

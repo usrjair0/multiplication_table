@@ -13,6 +13,7 @@ body {
     background-color: var(--preto-dnc);
     color: var(--branco-dnc);
     font-size: 1.2rem;
+    background-image: url(./assets/tabuada-da-multiplicacao.webp);
 }
 header {
     display: grid;
@@ -48,11 +49,17 @@ section div p {
     height: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+#botao:hover {
+    background-color: #004b64;
+    scale: 1.1;
 }
 .form {
     margin: 8px;
     border-radius: 10px;
     border: 0;
+    padding: 10px;
     height: 22px;
     width: 200px;
 }
