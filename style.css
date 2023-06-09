@@ -24,12 +24,12 @@ header {
     align-items: center;
     margin-bottom: 20px;
 }
+    #logo {
+    width: 115px;
+    }
     header h1 {
     text-align: center;
     }
-#logo {
-    width: 115px;
-}
 .section {
     background-color: var(--branco-dnc);
     color: var(--preto-dnc);
@@ -40,9 +40,9 @@ header {
     margin: auto;
     height: 100%;
 }
-.section p {
+    .section p {
     margin-bottom: 8px;
-}
+    }
 #botao {
     background-color: var(--azul-dnc);
     color: var(--branco-dnc);
@@ -54,10 +54,10 @@ header {
     cursor: pointer;
     font-size: 1.1rem;
 }
-#botao:hover {
+    #botao:hover {
     background-color: #004b64;
     scale: 1.1;
-}
+    }
 .form {
     margin: 8px;
     border-radius: 10px;
@@ -66,14 +66,16 @@ header {
     height: 34px;
     width: 50%;
 }
-.form:hover {
+    .form:hover {
     background-color: #f0f0f0;
-}
-.form::-webkit-inner-spin-button,
-.form::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+    }
+    .form::-webkit-inner-spin-button,
+    .form::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+/*responsividade*/
 @media (max-width: 600px) {
     *{
         font-size: 0.9rem;
