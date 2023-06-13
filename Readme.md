@@ -14,12 +14,12 @@
 2. Entre na pasta do projeto: `cd multiplication_table`
 3. Instale as dependências: `npm install` 
 
-## Uso
+## Uso 🧐
 
 ### A utilização é simples e bem intuitiva. <br>
- Aqui temos uma imagem do projeto no computador:<br> <br>
+ Aqui temos uma imagem do projeto no computador 💻: 👇<br> <br>
 <img src="./assets/PcView.png"> <br><br>
- e aqui no celular :iphone: : <br><br>
+ e aqui no celular :iphone:: 👇 <br><br>
 <img src="./assets/mobileView.jpeg">
 
 ## Licença
