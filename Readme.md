@@ -16,9 +16,10 @@
 
 ## Uso
 
-A utilização é simples e bem intuitiva. Aqui temos uma imagem do projeto no computador:
-<img src="./assets/PcView.png"> <br>
-e aqui no celular: <br>
+### A utilização é simples e bem intuitiva. <br>
+ Aqui temos uma imagem do projeto no computador:<br> <br>
+<img src="./assets/PcView.png"> <br><br>
+ e aqui no celular :iphone: : <br><br>
 <img src="./assets/mobileView.jpeg">
 
 ## Licença
