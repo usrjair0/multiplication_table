@@ -28,5 +28,6 @@ Indique a licença sob a qual o seu projeto está disponibilizado. Por exemplo, 
 
 ## Contato
 
-Forneça informações de contato, caso as pessoas queiram se comunicar com você sobre o projeto. Você pode incluir seu e-mail ou links para suas redes sociais.
+<a href="https://www.instagram.com/jairoo.jrr/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/jairo-silva-1bb24a25a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
