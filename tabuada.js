@@ -1,8 +1,8 @@
 function tabuada() {
-    var num = window.document.getElementById('num') 
-    var end = document.getElementById('end')
-    var n = Number(num.value) //pegando o valor numerico de "num"
-    var e = Number(end.value) //pegando o valor numerico de "end"
+    var num = window.document.getElementById('num').value 
+    var end = document.getElementById('end').value
+    var n = Number(num) //pegando o valor numerico de "num"
+    var e = Number(end) //pegando o valor numerico de "end"
     if (n == `` ||e == ``){
          window.alert(`Por favor preencha os campos solicitados`)
     }else {
