@@ -1,5 +1,5 @@
 function tabuada() {
-
+    
     var num = window.document.getElementById('num').value; 
     var end = document.getElementById('end').value;
     var n = Number(num);
@@ -15,13 +15,12 @@ function tabuada() {
             r = n*i;
             res.innerHTML += `${n}x${i}= ${r} <br>`;
         }
-
-        //outra forma de fazer
+    }
+}
+//outra forma de fazer
         // var x = 0 
         // do {
         //     r= n*x
         //     res.innerHTML += `${n}x${x} =${r} <br>`;
         //     x++
         // } while (x <= e)
-    }
-}
